@@ -37,3 +37,38 @@ p {
     height: 350px;
     text-align: center;
 }
+header a {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    text-decoration: none;
+}
+header {
+    min-height: 10vh;
+    background-color: white;
+    border: 2px solid grey;
+}
+header ul {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
+}
+header li {
+    display: inline-block;
+    margin-right: 8vw;
+    margin-left: 11vw;
+}
+.topnav a:hover {
+    background-color: red;
+    color: black;
+    border: 1px solid black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
